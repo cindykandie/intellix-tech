@@ -2,4 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
+:root{
+  
+}
+.custom-footer{
+    position: absolute; 
+    height: 100px;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+}
+.custom-btbanner{
+    position: absolute; 
+    height: 50px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+}

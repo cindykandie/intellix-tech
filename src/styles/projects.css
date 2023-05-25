@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+:root{
+    --pinkColor: #f77e7e;
+    --maroonColor: #911d2e;
+    --yellowColor: #f3c353;
+    --blueColor: #03536e;
+    --grayColor: #F5F5F5;
+    --purpleColor: #a24da7;
+    --blackColor: #231F20;
+    --whiteColor: #FFFBFB;
+    --fontFamily: 'Jost', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    font-family: var(--fontFamily)
+}
+body{
+    display: flex;
+    
+}
+.project-wrapper{
+    margin: 10px 20px 5px 10px;
+}
+section{
+    width: 100vw;
+    max-width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purpleColor);
+    border-radius: 5px 5px 0 0;
+}
+.custom-image{
+    object-fit: contain;
+}
+.btn-container {
+    display: flex;
+    gap: 0.5rem;
+}
+.btn-container button{
+    border: 1px solid var(--blackColor);
+    border-radius: 4px;
+    width: 7.5rem;
+    padding: 2px 4px;
+}
+.btn-container button:hover{
+    color: var(--whiteColor);
+    background-color: var(--purpleColor);
+}
