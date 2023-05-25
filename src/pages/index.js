@@ -11,7 +11,7 @@ const HomePage = () => {
   };
 
   const shortDescription = 'Intellixar - Living Limitlessly without Asking for Permission';
-  const longDescription = `Intellixar is a software company founded by a front-end developer with a vision to tackle the impossible in a world where AI serves as a companion. Our mission is to create innovative solutions that push the boundaries of what is achievable. We believe in living limitlessly without asking for permission, and we strive to empower individuals and businesses to do the same.
+  const longDescription = `IntelliXar is a software company founded by a front-end developer, Cindy Kandie with a vision to tackle the impossible in a world where AI serves as a companion. My mission is to create innovative solutions that push the boundaries of what is achievable. I believe in living limitlessly without asking for permission, and I strive to empower individuals and businesses to do the same.
 
   To learn more about our journey and the latest developments in the field, check out our blog post on "The Power of AI and Human Collaboration".`;
 
