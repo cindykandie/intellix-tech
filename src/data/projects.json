@@ -1,0 +1,11 @@
+{
+    "projects":[  
+        {    
+            "title": "Joke Simulator",    
+            "description": "In this React App, I use an API to throw random jokes to users. It is intended to make users laugh at their mistakes and keep going even when things get tough. Also I figured why not show off my React skills.",    
+            "image": "/assets/images/jokesapp.png",    "sourceCodeLink": "https://github.com/cindykandie/jokes-simulator",    
+            "liveSiteLink": "https://jokes-simulator.netlify.app/"  }
+        
+        ]
+
+}

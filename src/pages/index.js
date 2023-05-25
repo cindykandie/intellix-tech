@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
 import Layout from '@/components/Layout';
 
 
@@ -10,24 +9,28 @@ const HomePage = () => {
     setShowFullDescription(!showFullDescription);
   };
 
-  const shortDescription = 'Intellixar - Living Limitlessly without Asking for Permission';
+  const shortDescription = 'IntelliXar - Living Limitlessly without Asking for Permission';
   const longDescription = `IntelliXar is a software company founded by a front-end developer, Cindy Kandie with a vision to tackle the impossible in a world where AI serves as a companion. My mission is to create innovative solutions that push the boundaries of what is achievable. I believe in living limitlessly without asking for permission, and I strive to empower individuals and businesses to do the same.
-
-  To learn more about our journey and the latest developments in the field, check out our blog post on "The Power of AI and Human Collaboration".`;
+  
+  To learn more about our journey and the latest developments in the field, check out our blog post on "The Power of AI and Human Collaboration".
+  
+  IntelliXar is a tech solutions company focused on creating innovative software products and providing custom software development services. This project showcases our company website built using Next.js, a powerful React framework for server-side rendering and static site generation. 🚀`;
 
   return (
     <Layout>
-      <h1 className="text-4xl font-bold mb-4">{shortDescription}</h1>
-      {showFullDescription ? (
-        <div>
-          <p>{longDescription}</p>
-          
-        </div>
-      ) : (
-        <button onClick={toggleDescription} className="text-blue-500">
-          Read More
-        </button>
-      )}
+      <div className='pt-[100px] px-5 w-[100%] max-w-[500px]'>
+        <h1 className="text-4xl font-bold mb-4">{shortDescription}</h1>
+        {showFullDescription ? (
+          <div>
+            <p>{longDescription}</p>
+            
+          </div>
+        ) : (
+          <button onClick={toggleDescription} className="text-black-500 font-bold underline">
+            Read More
+          </button>
+        )}
+      </div>
     </Layout>
   );
 };
