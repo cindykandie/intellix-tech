@@ -4,8 +4,9 @@ import BtBanner from './btBanner';
 
 const Footer = () => {
     return (
-      <footer
-        className="custom-footer bg-gray-200 py-4 text-center"
+      <div className='custom-footer'>
+           <footer
+        className="bg-gray-200 py-4 text-center"
         style={{ display: 'flex', justifyContent: 'center' }}
       >
         <div className=''>
@@ -16,13 +17,16 @@ const Footer = () => {
                 <a href='https://devcindy.vercel.app'>
                 CEO's Portfolio</a>
               </p>
-              <Link href="/">
+              <a href="/">
                 <p className="text-xl font-bold text-black-500">IntelliXar</p>
-              </Link>
+              </a>
           </p>
         </div>
-        
       </footer>
+      <BtBanner />
+      </div>
+     
+
     );
   };
   

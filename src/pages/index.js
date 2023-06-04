@@ -18,11 +18,11 @@ const HomePage = () => {
 
   return (
     <Layout>
-      <div className='pt-[100px] px-5 w-[100%] max-w-[500px]'>
+      <main className='custom-main flex-1 p-5 pt-[50px] w-[100%] max-w-[500px]'>
         <h1 className="text-4xl font-bold mb-4">{shortDescription}</h1>
         {showFullDescription ? (
           <div>
-            <p>{longDescription}</p>
+            {longDescription}
             
           </div>
         ) : (
@@ -30,7 +30,7 @@ const HomePage = () => {
             Read More
           </button>
         )}
-      </div>
+      </main>
     </Layout>
   );
 };

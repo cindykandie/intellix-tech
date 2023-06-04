@@ -13,10 +13,7 @@
 *{
     font-family: var(--fontFamily)
 }
-body{
-    display: flex;
-    
-}
+
 .project-wrapper{
     margin: 10px 20px 5px 10px;
 }
