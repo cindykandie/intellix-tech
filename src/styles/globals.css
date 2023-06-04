@@ -7,6 +7,7 @@ html, body{
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url(/assets/images/bg-image.png);
 }
 .custom-main{
     min-height: calc(100% - 100px);
