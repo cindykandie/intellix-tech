@@ -11,8 +11,7 @@ const Footer = () => {
       >
         <div className=''>
           <p className="text-gray-700">Contact: info@intellixar.com</p>
-          <p>
-            
+          <div>
               <p className="text-black-500 underline">
                 <a href='https://devcindy.vercel.app'>
                 CEO's Portfolio</a>
@@ -20,7 +19,7 @@ const Footer = () => {
               <a href="/">
                 <p className="text-xl font-bold text-black-500">IntelliXar</p>
               </a>
-          </p>
+          </div>
         </div>
       </footer>
       <BtBanner />

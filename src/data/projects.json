@@ -1,11 +1,29 @@
 {
     "projects":[  
         {    
+            "title": "ConSalt Platform",    
+            "description": "ConSalt is a platform that connects companies/ individuals with pre-vetted industry consultants. The platform features a directory of experienced consultants that companies/clients can search and filter through to find the right fit for their needs. ConSalt also offers a community section where professionals can connect with each other.",
+            "image": "/assets/images/consalt.png",
+            "sourceCodeLink": "https://github.com/cindykandie/consalt-project",    
+            "liveSiteLink": "https://cindykandie.hashnode.dev/building-a-full-web-app-consultation-platform"  
+        },  
+        {    
             "title": "Joke Simulator",    
-            "description": "In this React App, I use an API to throw random jokes to users. It is intended to make users laugh at their mistakes and keep going even when things get tough. Also I figured why not show off my React skills.",    
+            "description": "In this React App, I use an API to throw random jokes to users. It is intended to make users laugh at their mistakes and keep going even when things get tough. Also I figured why not show off my React skills. Jokes Simulator was created in a bid to make the world a happier place by sharing and spreading joy through jokes. Built With: Tech Stack: Build With: React.js,CSS,JavaScript,JSX, Key Features: Display Jokes per interface, Navigate through the app",
             "image": "/assets/images/jokesapp.png",    "sourceCodeLink": "https://github.com/cindykandie/jokes-simulator",    
-            "liveSiteLink": "https://jokes-simulator.netlify.app/"  }
+            "liveSiteLink": "https://jokes-simulator.netlify.app/"  },  
+
+        {    
+            "title": "Kamident Clinic",    
+            "description": "Kamident Clinic is a web site for dental patients to easily access and book their dental appointments. Kamident also presents the work previously done by the dentist and is able to convince web visitors to make the same dental appointments. The dentist can quickly communicate with clinics on such a platform hence multiplying revenue sources.",    
+            "image": "/assets/images/kamident.png",    "sourceCodeLink": "https://github.com/cindykandie/kamident-clinic",    
+            "liveSiteLink": "https://dantiste.netlify.app/"  
+        },  
         
+        {    
+            "title": "MemeGod Creator",    "description": "Memer is a web application that lets you unleash your creativity and create hilarious meme statements. tada It provides an easy-to-use interface where you can enter your text and download the meme as an image. Memer also offers a customizable theme with light and dark modes.",    
+            "image": "/assets/images/memegod.png",    "sourceCodeLink": "https://github.com/cindykandie/memer",    "liveSiteLink": "https://meme-god.netlify.app/"  
+        }
         ]
 
 }
