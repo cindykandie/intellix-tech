@@ -18,8 +18,8 @@ const HomePage = () => {
 
   return (
     <Layout>
-      <main className='custom-main flex-1 p-[10%] mb-10 pt-[50px] w-[100%] max-w-[700px]'>
-        <h1 className="text-4xl font-bold mb-4">{shortDescription}</h1>
+      <main className='custom-main flex-1 p-[10%] mb-10 pt-[50px] w-[100%] max-w-[800px]'>
+        <h1 className="text-2xl font-bold mb-4">{shortDescription}</h1>
         {showFullDescription ? (
           <div>
             {longDescription}
