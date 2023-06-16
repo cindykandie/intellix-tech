@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="flex gap-[70%] justify-center items-center p-5">
+    <header className="flex justify-between items-center p-5">
       
         <Link href="/">
           <p className="text-xl font-bold text-black-500">IntelliXar</p>
