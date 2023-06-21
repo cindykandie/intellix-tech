@@ -9,12 +9,16 @@ const HomePage = () => {
     setShowFullDescription(!showFullDescription);
   };
 
-  const shortDescription = 'IntelliXar - Living Limitlessly without Asking for Permission';
-  const longDescription = `IntelliXar is a software company founded by a front-end developer, Cindy Kandie with a vision to tackle the impossible in a world where AI serves as a companion. My mission is to create innovative solutions that push the boundaries of what is achievable. I believe in living limitlessly without asking for permission, and I strive to empower individuals and businesses to do the same.
+  const shortDescription = 'IntelliXar - Living Limitlessly without Waiting for Permission';
+  const longDescription = `IntelliXar is an extraordinary software company founded by Cindy Kandie, a visionary front-end engineer, with a mission to conquer the impossible in a world where AI serves as a companion. 
   
-  To learn more about our journey and the latest developments in the field, check out our blog post on "The Power of AI and Human Collaboration".
+  The goal is to create groundbreaking solutions that redefine what is achievable. We believe in living limitlessly, without waiting for permission, and we empower individuals and businesses to do the same.
+
+  At IntelliXar, we are passionate about pushing the boundaries of innovation and collaboration. Our focus lies in developing cutting-edge software products and providing custom software development services. With our expertise and dedication, we strive to create solutions that are not only technically advanced but also fun and collaborative.
   
-  IntelliXar is a tech solutions company focused on creating innovative software products and providing custom software development services. This project showcases our company website built using Next.js, a powerful React framework for server-side rendering and static site generation. 🚀`;
+  We believe in utilizing the latest technologies to deliver exceptional user experiences and enhance the efficiency of businesses across various industries.
+  
+  Join us on this exciting journey as we revolutionize the way technology empowers individuals and businesses. Welcome to IntelliXar, where innovation knows no boundaries. 🚀`;
 
   return (
     <Layout>
