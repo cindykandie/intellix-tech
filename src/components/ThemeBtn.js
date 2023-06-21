@@ -7,7 +7,9 @@ const ToggleButton = () => {
     const bodyElement = document.querySelector('body');
     const textElements = document.querySelectorAll('.text-color-change');
     
-    bodyElement.style.backgroundImage = isDarkMode ? 'url(/assets/images/darkbg.png)' : 'url(/assets/images/lightbg.png)';
+    bodyElement.style.backgroundImage = isDarkMode ? 'url(/assets/images/darkbg.png)' : 'url(/assets/images/lightb_g.png)';
+    bodyElement.style.backgroundRepeat = 'repeat';
+    bodyElement.classList = 'transition duration-300 ease-in-out'
     textElements.forEach((element) => {
         element.classList.toggle('text-white', isDarkMode);
         element.classList.toggle('text-black', !isDarkMode);
@@ -27,7 +29,7 @@ const ToggleButton = () => {
       onClick={handleToggle}
     >
       <img
-        src={isDarkMode ? '/assets/icons/moon.svg' : '/assets/icons/sun.svg'}
+        src={isDarkMode ? '/assets/icons/sun.svg' : '/assets/icons/moon.svg'}
         alt={isDarkMode ? 'Dark Mode' : 'Light Mode'}
         className="w-7 h-7 bg-white rounded p-1"
       />
