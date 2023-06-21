@@ -4,9 +4,9 @@ import BtBanner from './btBanner';
 
 const Footer = () => {
     return (
-      <div className='custom-footer'>
+      <div className='custom-footer h-[100px]'>
            <footer
-        className="bg-gray-200 py-4 text-center"
+        className="bg-gray-200 py-2 text-center "
         style={{ display: 'flex', justifyContent: 'center' }}
       >
         <div className=''>
