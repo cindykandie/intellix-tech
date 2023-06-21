@@ -11,8 +11,7 @@ html, body{
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-image: url(/assets/images/bg-image.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Poppins', sans-seif;

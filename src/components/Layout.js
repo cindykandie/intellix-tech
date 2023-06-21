@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import BtBanner from './btBanner';
 import Head from 'next/head';
 
 

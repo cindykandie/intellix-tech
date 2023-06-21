@@ -22,7 +22,7 @@ const HomePage = () => {
 
   return (
     <Layout>
-      <main className='custom-main flex-1 p-[10%] mb-10 pt-[50px] w-[100%] max-w-[800px]'>
+      <main className='custom-main flex-1 p-[10%] mb-10 pt-[50px] w-[100%] max-w-[800px] text-color-change'>
         <h1 className="text-2xl font-bold mb-4">{shortDescription}</h1>
         {showFullDescription ? (
           <div>
