@@ -10,7 +10,7 @@ const HomePage = () => {
   };
 
   const shortDescription = 'IntelliXar - Living Limitlessly without Waiting for Permission';
-  const longDescription = `IntelliXar is an extraordinary software company founded by Cindy Kandie, a visionary front-end engineer, with a mission to conquer the impossible in a world where AI serves as a companion. 
+  const longDescription = `IntelliXar is an extraordinary software company founded with a mission to conquer the impossible in a world where AI serves as a companion. 
   
   The goal is to create groundbreaking solutions that redefine what is achievable. We believe in living limitlessly, without waiting for permission, and we empower individuals and businesses to do the same.
 
@@ -22,7 +22,7 @@ const HomePage = () => {
 
   return (
     <Layout>
-      <main className='custom-main flex-1 p-[10%] mb-10 pt-[50px] w-[100%] max-w-[800px] text-color-change'>
+      <main className='pt-[50px] max-w-[800px] text-color-change font-sans px-5'>
         <h1 className="text-2xl font-bold mb-4">{shortDescription}</h1>
         {showFullDescription ? (
           <div>
