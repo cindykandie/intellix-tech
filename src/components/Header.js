@@ -7,7 +7,7 @@ const Header = () => {
     <header className="flex justify-between items-center p-5 w-[100%] max-w-[1200px] m-[auto]">
       
         <Link href="/">
-          <p className="text-xl font-bold text-black-500 hover:underline text-color-change">IntelliXar</p>
+          <p className="text-3xl font-bold text-black-500 hover:underline text-color-change">IntelliXar</p>
         </Link>
   
         <div className='flex gap-8'>
