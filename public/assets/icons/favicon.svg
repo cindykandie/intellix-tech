@@ -14,6 +14,6 @@
   <rect width="32" height="16" rx="7" fill="url(#shine)"/>
   <text x="16" y="24" text-anchor="middle" fill="white"
     font-size="22" font-weight="700" font-style="italic"
-    font-family="'Cormorant Garamond', Georgia, serif"
+    font-family="'Cormorant Garamond', Palatino, 'Palatino Linotype', 'Book Antiqua', serif"
     letter-spacing="0">i</text>
 </svg>
