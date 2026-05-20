@@ -19,5 +19,26 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 90vh;
-  position: relative;
 }
+
+/* AI Radar animations */
+@keyframes radar-sweep {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.5; box-shadow: 0 0 16px rgba(34,211,238,0.3); }
+  50%       { opacity: 1;   box-shadow: 0 0 36px rgba(34,211,238,0.8); }
+}
+@keyframes scan-ring {
+  0%   { transform: translate(-50%, -50%) scale(1);   opacity: 0.7; }
+  100% { transform: translate(-50%, -50%) scale(2.4); opacity: 0; }
+}
+@keyframes float-up {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+.radar-sweep  { animation: radar-sweep 4s linear infinite; transform-origin: center; }
+.glow-pulse   { animation: glow-pulse 2s ease-in-out infinite; }
+.scan-ring    { animation: scan-ring 2.5s ease-out infinite; }
+.float-up     { animation: float-up 3s ease-in-out infinite; }
