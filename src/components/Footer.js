@@ -4,6 +4,7 @@ import BtBanner from './btBanner';
 const Footer = () => {
     return (
       <div className='mt-auto w-full'>
+        <hr className="border-t border-gray-300 opacity-40 mx-5" />
            <footer
         className="transparent py-2 text-center"
         style={{ display: 'flex', justifyContent: 'center' }}
