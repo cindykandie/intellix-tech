@@ -25,19 +25,25 @@ export default function Projects() {
                 <div className="p-4">
                   <h2 className="text-xl font-bold mb-2">{project.title}</h2>
                   <p className="text-gray-800 text-base mb-4">{project.description}</p>
-                  <div className="flex btn-container">
+                  <div className="flex btn-container gap-2">
                     {project.isInternal ? (
                       <Link href={project.liveSiteLink}>
-                        <button className='border rounded mx-3 p-1 bg-purple-500'>Live Site</button>
+                        <button className='border border-purple-600 rounded px-4 py-1.5 bg-purple-500 text-white text-sm font-semibold transition-all duration-200 hover:bg-purple-600 hover:border-purple-700 hover:shadow-lg hover:shadow-purple-500/30 active:scale-95 active:bg-purple-700'>
+                          Live Site
+                        </button>
                       </Link>
                     ) : (
                       <a href={project.liveSiteLink} target='blank'>
-                        <button className='border rounded mx-3 p-1 bg-purple-500'>Live Site</button>
+                        <button className='border border-purple-600 rounded px-4 py-1.5 bg-purple-500 text-white text-sm font-semibold transition-all duration-200 hover:bg-purple-600 hover:border-purple-700 hover:shadow-lg hover:shadow-purple-500/30 active:scale-95 active:bg-purple-700'>
+                          Live Site
+                        </button>
                       </a>
                     )}
                     {project.sourceCodeLink && (
                       <a href={project.sourceCodeLink} target='blank'>
-                        <button className='border rounded mx-3 p-1 bg-purple-400'>Source Code</button>
+                        <button className='border border-purple-400 rounded px-4 py-1.5 bg-transparent text-purple-700 text-sm font-semibold transition-all duration-200 hover:bg-purple-400 hover:text-white hover:shadow-lg hover:shadow-purple-400/30 active:scale-95 active:bg-purple-500'>
+                          Source Code
+                        </button>
                       </a>
                     )}
                   </div>
