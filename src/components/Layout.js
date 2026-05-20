@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <div className='flex flex-col justify-between'>
       <Head>
         <title>IntelliXar</title>
-        <link rel="icon" type="image/x-icon" href="/assets/icons/logo.png"></link>
+        <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
       </Head>
       <Header />
       <div className='main-container'>

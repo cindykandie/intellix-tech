@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48">
+  <defs>
+    <linearGradient id="badgeBg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="badgeShine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="xarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon badge -->
+  <rect x="0" y="4" width="40" height="40" rx="9" fill="url(#badgeBg)"/>
+  <rect x="0" y="4" width="40" height="20" rx="9" fill="url(#badgeShine)"/>
+  <text x="20" y="30" text-anchor="middle" fill="white"
+    font-size="16" font-weight="900"
+    font-family="system-ui, -apple-system, sans-serif"
+    letter-spacing="-0.5">IX</text>
+
+  <!-- Wordmark -->
+  <text x="52" y="32" fill="#111827"
+    font-size="20" font-weight="700"
+    font-family="system-ui, -apple-system, sans-serif"
+    letter-spacing="-0.3">Intelli<tspan fill="url(#xarGrad)" font-weight="900">Xar</tspan></text>
+</svg>
