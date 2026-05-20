@@ -6,17 +6,17 @@ const HomePage = () => {
     <Layout>
       <main className='pt-[60px] max-w-[760px] text-color-change font-sans px-5'>
 
-        <h1 className="text-4xl font-extrabold leading-tight mb-3 tracking-tight">
+        <h1 className="text-xl font-extrabold leading-tight mb-2 tracking-tight">
           Living Limitlessly,<br />
-          <span className="text-3xl font-semibold opacity-70">without Waiting for Permission.</span>
+          <span className="text-lg font-semibold opacity-70">without Waiting for Permission.</span>
         </h1>
 
-        <p className="text-lg font-medium leading-relaxed mb-8 opacity-80 border-l-4 border-current pl-4">
+        <p className="text-xs font-medium leading-relaxed mb-4 opacity-80 border-l-4 border-current pl-3">
           IntelliXar is an extraordinary software company founded with a mission to conquer the impossible
           in a world where AI serves as a companion.
         </p>
 
-        <div className="space-y-5 text-base leading-relaxed opacity-90">
+        <div className="space-y-3 text-xs leading-relaxed opacity-90">
           <p>
             The goal is to create groundbreaking solutions that redefine what is achievable. We believe in
             living limitlessly, without waiting for permission — and we empower individuals and businesses
