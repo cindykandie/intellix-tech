@@ -8,7 +8,7 @@ const Header = () => {
       
         <Link href="/">
           <span className="text-2xl font-bold tracking-tight hover:opacity-80 transition-opacity text-color-change">
-            Intelli<span style={{ color: '#22d3ee' }}>Xar</span>
+            Intelli<span style={{ background: 'linear-gradient(90deg,#7c3aed,#0891b2)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Xar</span>
           </span>
         </Link>
   
