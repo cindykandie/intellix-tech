@@ -5,7 +5,7 @@ const BtBanner = () => {
 
   return (
     <div className="custom-btbanner bg-grey text-color-change">
-      <div className="mx-auto gap-0 justify-center items-center font-bold text-center">
+      <div className="mx-auto gap-0 justify-center items-center font-bold text-center text-xs">
           <a href="https://devcindy.vercel.app" c className="hover:underline">
             Built on Good Vibes
           </a>

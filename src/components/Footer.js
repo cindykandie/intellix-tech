@@ -6,17 +6,17 @@ const Footer = () => {
       <div className='mt-auto w-full'>
         <hr className="border-t border-gray-300 opacity-40 mx-5" />
            <footer
-        className="transparent py-2 text-center"
+        className="transparent py-1 text-center"
         style={{ display: 'flex', justifyContent: 'center' }}
       >
         <div className='text-color-change'>
-          <p className="hover:underline">
+          <p className="text-xs hover:underline">
             <a href='mailto:intellixar.tech@gmail.com'>
               Contact via Email
             </a>
           </p>
           <div>
-            <p className="text-xl font-bold text-color-change">
+            <p className="text-xs font-bold text-color-change">
               <a href='mailto:intellixar.tech@gmail.com'>IntelliXar</a>
             </p>
           </div>
