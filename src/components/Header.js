@@ -14,12 +14,12 @@ const Header = () => {
           <Link href="/projects">
             <p className="text-black-500 text-right mt-0 pt-0 hover:underline text-color-change">Products</p>
           </Link>
-          <Link href="/ai-radar">
+          {/* <Link href="/ai-radar">
             <p className="text-right mt-0 pt-0 font-semibold hover:opacity-80 transition-opacity"
               style={{ color: '#22d3ee', textShadow: '0 0 12px rgba(34,211,238,0.5)' }}>
               AI Radar
             </p>
-          </Link>
+          </Link> */}
           <ToggleButton />
         </div>
     </header>
