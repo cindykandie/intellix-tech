@@ -3,7 +3,7 @@ import BtBanner from './btBanner';
 
 const Footer = () => {
     return (
-      <div className='absolute bottom-0 left-0 right-0'>
+      <div className='mt-auto w-full'>
            <footer
         className="bg-gray-200 py-2 text-center"
         style={{ display: 'flex', justifyContent: 'center' }}
