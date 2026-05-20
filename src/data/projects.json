@@ -1,6 +1,13 @@
 {
-    "projects":[  
-        {    
+    "projects":[
+        {
+            "title": "AI Radar",
+            "description": "A digital trust tool that helps users detect AI-generated and manipulated content using intelligent analysis and credibility signals. Know What's Real.",
+            "image": "/assets/images/ai-radar.svg",
+            "liveSiteLink": "/ai-radar",
+            "isInternal": true
+        },
+        {
             "title": "ConSalt Platform",    
             "description": "ConSalt is a platform that connects companies/ individuals with pre-vetted industry consultants. The platform features a directory of experienced consultants that companies/clients can search and filter through to find the right fit for their needs. ConSalt also offers a community section where professionals can connect with each other.",
             "image": "/assets/images/consalt.png",

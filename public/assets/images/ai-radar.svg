@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#060d1a"/>
+    </radialGradient>
+    <radialGradient id="radarGlow" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="radarClip">
+      <circle cx="420" cy="185" r="130"/>
+    </clipPath>
+    <!-- Sweep gradient: a conic-like effect using linearGradient approximation -->
+    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="340" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid -->
+  <g stroke="#22d3ee" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="60" x2="600" y2="60"/>
+    <line x1="0" y1="120" x2="600" y2="120"/>
+    <line x1="0" y1="180" x2="600" y2="180"/>
+    <line x1="0" y1="240" x2="600" y2="240"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="100" y1="0" x2="100" y2="340"/>
+    <line x1="200" y1="0" x2="200" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="400" y1="0" x2="400" y2="340"/>
+    <line x1="500" y1="0" x2="500" y2="340"/>
+  </g>
+
+  <!-- Radar glow backdrop -->
+  <circle cx="420" cy="185" r="140" fill="url(#radarGlow)"/>
+
+  <!-- Radar rings -->
+  <circle cx="420" cy="185" r="32"  fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="1"/>
+  <circle cx="420" cy="185" r="64"  fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="1"/>
+  <circle cx="420" cy="185" r="96"  fill="none" stroke="#22d3ee" stroke-opacity="0.13" stroke-width="1"/>
+  <circle cx="420" cy="185" r="128" fill="none" stroke="#22d3ee" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Crosshairs -->
+  <line x1="292" y1="185" x2="548" y2="185" stroke="#22d3ee" stroke-opacity="0.1" stroke-width="1"/>
+  <line x1="420" y1="57"  x2="420" y2="313"  stroke="#22d3ee" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- Radar sweep wedge (static approximation) -->
+  <g clip-path="url(#radarClip)">
+    <path d="M420 185 L548 90 A130 130 0 0 1 548 185 Z"
+      fill="#22d3ee" fill-opacity="0.12"/>
+    <path d="M420 185 L530 110 A130 130 0 0 1 548 185 Z"
+      fill="#22d3ee" fill-opacity="0.18"/>
+    <line x1="420" y1="185" x2="548" y2="185"
+      stroke="#22d3ee" stroke-opacity="0.6" stroke-width="1.5" filter="url(#glow)"/>
+  </g>
+
+  <!-- Blips -->
+  <circle cx="463" cy="148" r="4" fill="#22d3ee" fill-opacity="0.9" filter="url(#glow)"/>
+  <circle cx="463" cy="148" r="9" fill="#22d3ee" fill-opacity="0.2"/>
+
+  <circle cx="390" cy="220" r="3" fill="#67e8f9" fill-opacity="0.8" filter="url(#glow)"/>
+  <circle cx="390" cy="220" r="7" fill="#67e8f9" fill-opacity="0.15"/>
+
+  <circle cx="478" cy="198" r="2.5" fill="#a5f3fc" fill-opacity="0.6"/>
+
+  <!-- Center dot -->
+  <circle cx="420" cy="185" r="5" fill="url(#centerGlow)" filter="url(#softGlow)"/>
+  <circle cx="420" cy="185" r="3" fill="#22d3ee"/>
+
+  <!-- Outer radar border -->
+  <circle cx="420" cy="185" r="130" fill="none" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- Left side: text content -->
+  <!-- Badge -->
+  <rect x="40" y="52" width="130" height="22" rx="11" fill="#22d3ee" fill-opacity="0.1" stroke="#22d3ee" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="105" y="67" text-anchor="middle" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">INTELLIXAR</text>
+
+  <!-- Product name -->
+  <text x="40" y="128" fill="white" font-family="system-ui, sans-serif" font-size="52" font-weight="900" letter-spacing="-1">AI</text>
+  <text x="115" y="128" fill="#22d3ee" font-family="system-ui, sans-serif" font-size="52" font-weight="900" letter-spacing="-1" filter="url(#softGlow)">Radar</text>
+
+  <!-- Tagline -->
+  <text x="40" y="158" fill="#a5f3fc" font-family="system-ui, sans-serif" font-size="16" font-weight="300" letter-spacing="3">Know What&apos;s Real.</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="175" x2="240" y2="175" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Description -->
+  <text x="40" y="200" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="400">Digital trust &amp; AI content</text>
+  <text x="40" y="218" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" font-weight="400">detection tool.</text>
+
+  <!-- Feature pills -->
+  <rect x="40" y="238" width="110" height="20" rx="10" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="95" y="252" text-anchor="middle" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="10">AI Detection</text>
+
+  <rect x="160" y="238" width="106" height="20" rx="10" fill="#3b82f6" fill-opacity="0.08" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="213" y="252" text-anchor="middle" fill="#93c5fd" font-family="system-ui, sans-serif" font-size="10">Trust Signals</text>
+
+  <rect x="40" y="266" width="120" height="20" rx="10" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="100" y="280" text-anchor="middle" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="10">Image Analysis</text>
+
+  <!-- Bottom tag -->
+  <text x="40" y="318" fill="#334155" font-family="system-ui, sans-serif" font-size="11" font-weight="500" letter-spacing="1">COMING SOON</text>
+</svg>
