@@ -103,7 +103,7 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-2 text-xs text-gray-600">
             <span
-              className="w-1.5 h-1.5 rounded-full bg-cyan-500 inline-block glow-pulse"
+              className="w-1.5 h-1.5 rounded-full bg-cyan-500 inline-block"
             />
             <span>AI Startup Studio</span>
           </div>
