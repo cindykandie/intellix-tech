@@ -33,7 +33,7 @@ const PROJECTS = [
     accent: '#34d399',
     icon: '🌱',
     services: ['E-commerce Platform', 'WhatsApp Integration', 'Product Catalogue'],
-    href: 'https://kilimopower.co.ke',
+    href: 'https://kilimopower.vercel.app',
   },
   {
     id: 'overall-interiors',

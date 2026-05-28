@@ -45,7 +45,7 @@ const PRODUCTS = [
     mission: "Kenya's most trusted farm power brand — solar pumps, backup systems & farm machinery.",
     description: 'Power your farm, cut costs, harvest more. Solar pumps, backup systems & farm machinery delivered anywhere in Kenya.',
     features: ['Solar Pump Systems', 'Backup Power', 'Farm Machinery', 'WhatsApp Orders'],
-    href: 'https://kilimopower.co.ke',
+    href: 'https://kilimopower.vercel.app',
     isInternal: false,
     featured: false,
     accent: '#34d399',
