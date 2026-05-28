@@ -18,7 +18,7 @@ const PROJECTS = [
     accent: '#f59e0b',
     icon: '🛵',
     services: ['Community Platform', 'Event Booking', 'Mobile App'],
-    href: 'https://2ride.vercel.app',
+    href: 'https://2ride-ui.vercel.app',
   },
   {
     id: 'kilimo-power',

@@ -31,7 +31,7 @@ const PRODUCTS = [
     mission: 'A community-driven biking platform built around adventure, culture, and connection.',
     description: 'Brings riders together through organized rides, events, and adventure culture — while making discovery, booking, and ride coordination seamless.',
     features: ['Organized Rides & Events', 'Ride Discovery', 'Booking & Coordination', 'Rider Community'],
-    href: 'https://2ride.vercel.app',
+    href: 'https://2ride-ui.vercel.app',
     isInternal: false,
     featured: false,
     accent: '#f59e0b',
